@@ -1,9 +1,9 @@
 ## User Stories
 
 Without being logged in, user can
-+ [ ] login to start a new session
-+ [ ] logout of their session
++ [X] login to start a new session
 + [X] View a list of campgrounds and its comments
++ [ ] logout of their session
 
 After user is logged in, he/she can:
 + [ ] create campgrounds, comments
