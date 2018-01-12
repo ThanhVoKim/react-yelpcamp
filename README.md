@@ -6,10 +6,10 @@ Without being logged in, user can
 + [ ] logout of their session
 
 After user is logged in, he/she can:
-+ [ ] create campgrounds, comments
-+ [ ] edit own campgrounds, comments
-+ [ ] update own campgrounds, comments
-+ [ ] delete own campgrounds, comments
++ [X] create campgrounds, comments
++ [X] edit own campgrounds, comments
++ [X] update own campgrounds, comments
++ [X] delete own campgrounds, comments
 
 ### Implementation
 - CSS3 background animation on landing page
