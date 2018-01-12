@@ -1,0 +1,4 @@
+node_modules/
+public/dist/
+src/components/googleMap/boilerplate.js
+.env.test

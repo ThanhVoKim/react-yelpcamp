@@ -1,0 +1,74 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+/* Thumbnail styles */
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+/* Google Map styles */
+#map {
+	height: 600px;
+  width: 100%;
+  margin: 16px 0 0 0;
+  @media (max-width: 991px) {
+    height: 200px;
+    margin: 0 0 12px 0;
+  }
+}
+
+/* Campground show page delete button */
+.delete-form {
+	display: inline-block;
+}
+
+/* Flexbox grid fix */
+.flex-wrap {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+
+.loader {
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.loader__image {
+  width: 70px;
+  height: 70px;
+}
+
+.small-avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 6px 6px 0;
+}

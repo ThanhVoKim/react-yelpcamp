@@ -1,0 +1,26 @@
+
+
+.login .login_authTitle {
+  text-align: center;
+  line-height: 300%;
+  margin: 0
+}
+.social-icons{
+  padding:0 1%;
+  margin: 0 auto;
+  width: 40%;
+  @media (max-width: 984px) {
+    width: 60%
+  }
+  @media (max-width: 775px) {
+    width: 60%
+  }
+}
+.social-icons i {font-size:18px;}
+.social-icons .facebook, .social-icons .twitter, .social-icons .google {width:100%;height:40px; margin:2% 0; }
+.modal-icons{margin-left: -10px; margin-right: 20px;}
+.social-icons .google, .social-icons .google:hover{
+  background-color:#dd4b39;border:2px solid #dd4b39;color:#fff;
+}
+.social-icons .twitter, .social-icons .twitter:hover{ background-color: #00aced; border:2px solid #00aced;color: #fff;}
+.social-icons .facebook, .social-icons .facebook:hover{background-color: #3b5999; border:2px solid #3b5999;color:#fff;}
