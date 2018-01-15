@@ -94,14 +94,3 @@ const mapStateToProps = (state, props) => ({
 
 export default connect(mapStateToProps)(IndexCampgrounds);
 
-/* renderAddCampground() {
-    if (this.props.user) {
-      return (
-        <Link className="btn btn-primary btn-md pull-right" to="/campgrounds/new">
-          <span className="glyphicon glyphicon-plus pull-left" aria-hidden="true" />
-          Share New Campground
-        </Link>
-      );
-    }
-  }
-   */
