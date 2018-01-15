@@ -9,7 +9,7 @@ class IndexCampgrounds extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      activePage: this.props.page,
+      activePage: props.page,
       itemsShow: 6
     };
   }
